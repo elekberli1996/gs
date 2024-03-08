@@ -1,0 +1,164 @@
+.container{
+    width: 1440px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: rgb(248, 226, 184);
+}
+.navbar{
+    display: flex;
+    background-color: rgb(134, 4, 4);
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    
+}
+header{
+    background-color: rgb(134, 4, 4);
+}
+.navbar img{
+    
+    width: 100%;
+    height: 60px;
+    border-radius: 50%;
+    padding: 2px;
+  
+}
+.navbar_menu ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  
+}
+.navbar_menu ul  a{
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.navbar_menu ul  a:hover{
+    color: rgb(247, 142, 6);
+    transition: .9s ease;
+}
+.gs{
+    background-image: url("gs.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: left top;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+
+}
+.gs p{
+    padding-top: 30px;
+   color:rgb(233, 140, 18);
+   font-weight: bold;
+   font-size: 60px;
+   text-shadow: 5px 5px 10px black;
+   
+}
+.gs p:hover{
+   
+   color:rgb(233, 25, 18);
+   transition: .9s ease;
+
+   
+}
+ .product_bas{
+ text-align: center;
+ padding: 30px 250px;
+ }
+ .product_bas p{
+    margin-top: 10px;
+    text-align: justify;
+ }
+ .product_bas h1{
+   color: rgb(133, 6, 6);
+   text-shadow: 2px 2px 10px black;
+ }
+ .product{
+    
+    width: 20%;
+    height: 280px;
+    margin-left: 25px;
+    margin-top: 25px;
+    text-align: center;
+    background-color: rgb(228, 161, 113);
+    border: 2px solid saddlebrown;
+    border-radius: 10px;
+ }
+ .product img{
+   
+   border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 200px;
+ }
+ .buy{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+ }
+ .buy button{
+    background-color: rgb(141, 23, 8);
+    border: 2px solid rgb(73, 4, 4);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: white;
+ }
+ .buy button:hover{
+    background-color: rgb(219, 130, 130);
+    color:rgb(51, 14, 9);
+    cursor: pointer;
+    transition: .9s ease;
+ }
+ section{
+  
+   width: 80%;  
+   margin: 0 auto;
+   height: 500px;
+
+
+ }
+.paragraf{
+    text-align: center;
+    padding: 20px 150px;
+    margin-top: 10px;
+    text-align: justify;
+ }
+.bas{
+    text-align: center;
+    padding: 20px;
+   color: rgb(133, 6, 6);
+   text-shadow: 2px 2px 10px black;
+   font-size: 30px;
+ }
+ .products{
+
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+ }
+ 
+
+
+  
+
+
+
+
